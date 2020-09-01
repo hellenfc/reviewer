@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import MapView, { Marker } from "react-native-maps";
 
 const ListItem = ({ item }) => {
-    console.log('item', item)
     return (
         <TouchableOpacity style={styles.listItem}>
             <View style={styles.listItemView}>

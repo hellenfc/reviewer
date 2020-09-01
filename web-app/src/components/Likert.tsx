@@ -43,7 +43,6 @@ const Likert = ({ setReview }: any) => {
                             <TableCell component="th" scope="row">
                                 {row}
                             </TableCell>
-                            {/* {renderCells(row)} */}
                             <TableCell align="center"><input type="radio" value="0" name={row} onChange={(event) => handleOptionChange(event)} /></TableCell>
                             <TableCell align="center"><input type="radio" value="1" name={row} onChange={(event) => handleOptionChange(event)} /></TableCell>
                             <TableCell align="center"><input type="radio" value="2" name={row} onChange={(event) => handleOptionChange(event)} defaultChecked/></TableCell>

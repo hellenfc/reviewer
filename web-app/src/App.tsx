@@ -33,7 +33,6 @@ function App() {
       review,
       location
     }
-    console.log('ENVIAR USER REVIEW')
 
     const requestOptions = {
       method: "POST",

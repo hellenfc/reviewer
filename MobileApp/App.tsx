@@ -12,13 +12,8 @@ import Pusher from 'pusher-js/react-native';
 import Header from './components/Header';
 import ListItem from './components/ListItem';
 
-console.log('AQUI TOY')
-
-
 const App = (): React.ReactElement => {
   const [items, setItems] = useState([])
-
-  // Pusher.logToConsole = true;
 
   let pusher = new Pusher('7b5f873955d15a8a72b4', {
     cluster: 'mt1'
@@ -27,7 +22,6 @@ const App = (): React.ReactElement => {
   let channel = pusher.subscribe('review-channel');
   channel.bind('new-review', function (data: any) {
     setItems(data.data)
-    // console.log('DATA', data.data)
   });
 
   return (

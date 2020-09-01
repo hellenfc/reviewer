@@ -24,23 +24,15 @@ app.get('/', function (req, res) {
 });
 
 app.post('/post', (req, res) => {
-    //add new book from body to array of books
     reviews.push(req.body.review);
-    //trigger  a event in a channel with json object
     pusher.trigger('review-channel', 'new-review', {
         'data': reviews
     });
-    //send respone for this route 
     console.log('---reviews', reviews)
     res.json({
         message: "Review added succesfully"
     })
 })
-
-
-// pusher.trigger('my-channel', 'my-event', {
-//     'message': 'hello world'
-// });
 
 app.listen(3001, () => {
     console.log('Express intro running on localhost:3001');
