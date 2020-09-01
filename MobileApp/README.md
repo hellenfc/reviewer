@@ -14,7 +14,7 @@ Permite la visualización de una lista con la información recibida de parte del
 
 En el directorio del proyecto, puede ejecutar:
 
-### `npx react-native run-ios`
+`npx react-native run-ios`
 
 Ejecuta la aplicación.br />
 Se muestra en el emulador. 

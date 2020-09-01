@@ -2,16 +2,16 @@
 
 ## Descripción
 
-El  repositorio consta de 3 proyectos
+El repositorio consta de 3 proyectos, más información dentro de cada proyecto
 
 ### web-app
 
 Dentro de este se puede encontrar un formulario con la posibilidad de hacer reseñas a frutas.
 Consta de 3 pasos:
 
-- `Selector de frutas` 
-- `Escala Likert` 
-- `Mapa`
+- Selector de frutas 
+- Escala Likert 
+- Mapa
 
 Toda información recolectada es enviada al Servidor 
 

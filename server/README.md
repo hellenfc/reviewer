@@ -5,7 +5,8 @@
 Servidor 
 Permite los siguientes llamados
 - `Get` - Resolviendo con un 'Hello World'
-- `Post` - Recibe un Objeto y hace trigger del evento `new-review` en el canal `review-channel` enviando un arreglo de objetos como: 
+- `Post` - Recibe un Objeto y hace trigger del evento `new-review` en el canal `review-channel` enviando un arreglo de objetos.
+Estructura de objetos 
     {
       "fruit": "MyFruit",
       "location": {
@@ -27,12 +28,12 @@ Permite los siguientes llamados
 
 En el directorio del proyecto, puede ejecutar:
 
-### `npm start`
+`npm start`
 
 Ejecuta la aplicación.br />
 Abrir [http://localhost:3001](http://localhost:3001) para verlo en el navegador.
 
-### `npm run dev`
+`npm run dev`
 
 Ejecuta la aplicación utilizando nodemon.br />
 Abrir [http://localhost:3001](http://localhost:3001) para verlo en el navegador.

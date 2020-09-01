@@ -21,26 +21,26 @@ Este proyecto se inició con [Create React App](https://github.com/facebook/crea
 
 En el directorio del proyecto, puede ejecutar:
 
-### `npm start`
+`npm start`
 
-Ejecuta la aplicación en modo de desarrollo.br />
+Ejecuta la aplicación en modo de desarrollo. <br />
 Abrir [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
 
 La página se volverá a cargar si realiza modificaciones. <br />
 También verá cualquier error de linting en la consola.
 
-### `npm test`
+`npm test`
 
 Inicia el corredor de pruebas en el modo de watch mode.
 
-### `npm run build`
+`npm run build`
 
 Construye la aplicación para producción en la carpeta `build`. <br />
 Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
 La compilación se minimiza y los nombres de archivo incluyen los hash. <br />
 
-### `npm run eject`
+`npm run eject`
 
 **Nota: esta es una operación unidireccional. Una vez que "expulsas", ¡no puedes regresar!**
 
