@@ -23,6 +23,7 @@ Estructura de objetos
 ## Instalar
 
 `npm install`
+Instalación de dependencias
 
 ## Scripts Disponibles
 
@@ -30,10 +31,10 @@ En el directorio del proyecto, puede ejecutar:
 
 `npm start`
 
-Ejecuta la aplicación.br />
+Ejecuta la aplicación.<br />
 Abrir [http://localhost:3001](http://localhost:3001) para verlo en el navegador.
 
 `npm run dev`
 
-Ejecuta la aplicación utilizando nodemon.br />
+Ejecuta la aplicación utilizando nodemon.<br />
 Abrir [http://localhost:3001](http://localhost:3001) para verlo en el navegador.

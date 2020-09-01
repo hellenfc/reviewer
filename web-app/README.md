@@ -16,6 +16,7 @@ Este proyecto se inició con [Create React App](https://github.com/facebook/crea
 ## Instalar
 
 `npm install`
+Instalación de dependencias
 
 ## Scripts Disponibles
 

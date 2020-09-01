@@ -23,7 +23,7 @@ Dentro de este se puede encontrar un Servidor que recibe los datos enviados a tr
 
 Dentro de este se puede encontrar un app móvil donde se muestra una lista con toda la información recibida por parte del servidor.
 
-## Mejoras 
+## Posibles Mejoras 
 
 - Uso de .env file dentro del web app
 - Styling del web-app utilizando material-ui
