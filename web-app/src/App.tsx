@@ -57,22 +57,29 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>
+        <h4>
           Fruit Reviewer
-        </h2>
-        <p>Choose a fruit:</p>
-        <select onChange={(event) => handleSelectedFruit(event)} value={fruit}>
-          {renderDropDown()}
-        </select>
-        <p>Make your review:</p>
-        <Likert setReview={handleReview}></Likert>
-        <p>Select a location:</p>
-        <GoogleMap setLocation={handleSelectedLocation}></GoogleMap>
+        </h4>
+        <div className="container">
+          <p>Choose a fruit:</p>
+          <select onChange={(event) => handleSelectedFruit(event)} value={fruit}>
+            {renderDropDown()}
+          </select>
+        </div>
+        <div className="container">
+          <p>Make your review:</p>
+            <Likert setReview={handleReview}></Likert>
+        </div>
+        <div className="container">
+          <p>Select a location:</p>
+          <GoogleMap setLocation={handleSelectedLocation}></GoogleMap>
+        </div>
         <Button
+          className="button"
           variant="contained"
           onClick={() => handleSubmit()}
         >
-          Submit
+          Enviar
         </Button>
       </header>
     </div>
