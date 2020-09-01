@@ -13,6 +13,8 @@ Al haber seleccionado cada uno de estos pasos es posible hacer Submit de estos v
 
 Este proyecto se inició con [Create React App](https://github.com/facebook/create-react-app).
 
+![picture](../screenshots/web.png)
+
 ## Instalar
 
 `npm install`
